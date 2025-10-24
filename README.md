@@ -32,3 +32,41 @@ source .venv/bin/activate
 
 # 3. Instalar dependências
 pip install -r requirements.txt
+
+🔐 Uso básico
+Criptografar
+python encrypter.py testes --pattern "*.txt" --recursive --confirm "EU-SOU-O-DONO-DOS-ARQUIVOS"
+
+Descriptografar
+python decrypter.py testes\ola.txt.locked --overwrite
+
+🧠 Recursos
+
+Criptografia simétrica segura com senha
+
+Suporte a múltiplos arquivos e diretórios
+
+Modo --dry-run para testar antes de alterar
+
+Senhas derivadas com PBKDF2 e sal único por arquivo
+
+⚠️ Aviso Ético
+
+Este projeto é apenas para fins educacionais e laboratoriais.
+Não utilize em sistemas ou arquivos de terceiros sem autorização.
+
+📸 Execução de Teste
+
+Veja abaixo a imagem de execução do encriptador:
+
+👨‍💻 Autor
+
+Davi Menezes Vasques
+📧 blackwatch.phishingedu@gmail.com
+🕶️ Hacker Ético | Pentest | Engenharia
+
+📜 Licença
+
+Este projeto é livre para uso educacional
+
+

@@ -1,17 +1,34 @@
-# File Locker (Ético) – Criptografia de Arquivos em Python
+# 🛡️ File Locker – Criptografia de Arquivos em Python
 
-> Projeto educacional que demonstra **criptografia simétrica segura** e **organização de projeto**,
-> sem comportamento malicioso. **Não se propaga, não deleta, não exige resgate** — serve apenas
-> para proteger arquivos **do próprio usuário**.
+![Execução do File Locker](images/execucao.png)
+
+## 📖 Descrição
+Projeto educacional que demonstra **criptografia simétrica segura** e **organização de projeto**, **sem comportamento malicioso**.  
+✅ Não se propaga  
+✅ Não deleta arquivos  
+✅ Não exige resgate  
+👉 Serve apenas para proteger arquivos **do próprio usuário**.
+
+---
 
 ## ⚙️ Tecnologias
 - Python 3.10+
-- [cryptography](https://pypi.org/project/cryptography/) (Fernet/AES-256)
-- PBKDF2-HMAC-SHA256 com salt por arquivo
+- Biblioteca [`cryptography`](https://pypi.org/project/cryptography/)
+- Fernet (AES-256)
+- PBKDF2-HMAC-SHA256 com sal por arquivo
+
+---
 
 ## 📦 Instalação
 ```bash
+# 1. Criar ambiente virtual
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# Linux/macOS: source .venv/bin/activate
+
+# 2. Ativar
+# Windows:
+.venv\Scripts\activate
+# Linux/macOS:
+source .venv/bin/activate
+
+# 3. Instalar dependências
 pip install -r requirements.txt

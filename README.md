@@ -1,5 +1,16 @@
 # 🛡️ File Locker – Criptografia de Arquivos em Python
 
+📸 Execução de Teste
+
+Veja abaixo a imagem de execução do encriptador:
+
+🔐 Uso básico
+Criptografar
+python encrypter.py testes --pattern "*.txt" --recursive --confirm "EU-SOU-O-DONO-DOS-ARQUIVOS"
+
+Descriptografar
+python decrypter.py testes\ola.txt.locked --overwrite
+
 ![Execução do File Locker](images/execucao.png)
 
 ## 📖 Descrição
@@ -32,17 +43,6 @@ source .venv/bin/activate
 
 # 3. Instalar dependências
 pip install -r requirements.txt
-
-📸 Execução de Teste
-
-Veja abaixo a imagem de execução do encriptador:
-
-🔐 Uso básico
-Criptografar
-python encrypter.py testes --pattern "*.txt" --recursive --confirm "EU-SOU-O-DONO-DOS-ARQUIVOS"
-
-Descriptografar
-python decrypter.py testes\ola.txt.locked --overwrite
 
 🧠 Recursos
 
